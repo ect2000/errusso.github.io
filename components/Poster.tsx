@@ -124,7 +124,7 @@ export function Poster({
           </span>
         ) : (
           <span className="font-display text-[clamp(1.6rem,3.6vw,2.5rem)] font-black uppercase leading-[0.88] tracking-[-0.035em]">
-            {project.name}
+            {project.name[lang]}
             <span className="cursor-block text-violet-soft">▮</span>
           </span>
         )}
